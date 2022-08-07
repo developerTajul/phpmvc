@@ -1,0 +1,21 @@
+{
+    "name": "tajul/phpmvc",
+    "description": "This is a custom mvc",
+    "type": "project",
+    "license": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "developerTajul",
+            "email": "developer.tajul@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "pecee/simple-router": "dev-master"
+    }
+}
